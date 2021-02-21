@@ -2,7 +2,7 @@
 This file contains basic information about each algorithm I learn.
   
 ### Searching and Sorting Algorithms:  
-|Name of Algorithm|Complexity|Comment|Implementation|
+|Name of Algorithm|Time Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------|:------------:|
 |linear search|O(n)|Rarely used.<br>Used for sorted arrays.|linear.py|
 |binary search|O(log(n)|Used for sorted arrays.|binary.py|
@@ -12,22 +12,22 @@ This file contains basic information about each algorithm I learn.
 |ternary search|O(log3 n)|Used for sorted arrays.<br>Similar to binary search, the difference is that we divide array (or slice) into 3 parts instead of 2 parts.|ternary.py|
 
 ### Greedy Algorithms:  
-|Name of Algorithm|Complexity|Comment|Implementation|
+|Name of Algorithm|Time Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------:|:------------:|  
 |                 |          |           |              |
   
 ### Dynamic Programming:  
-|Name of Algorithm|Complexity|Comment|Implementation|
+|Name of Algorithm|Time Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------:|:------------:|  
 |                 |          |           |              |
   
 ### Pattern Searching Algorithms:  
-|Name of Algorithm|Complexity|Comment|Implementation|
+|Name of Algorithm|Time Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------:|:------------:|  
 |                 |          |           |              |
   
 ### Backtracking:  
-|Name of Algorithm|Complexity|Comment|Implementation|
+|Name of Algorithm|Time Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------:|:------------:|  
 |                 |          |           |              |  
 
