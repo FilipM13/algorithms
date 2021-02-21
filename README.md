@@ -29,3 +29,9 @@ This file contains basic information about each algorithm I learn.
 |Name of Algorithm|Complexity|Comment|Implementation|
 |:---------------:|:--------:|:---------:|:------------:|  
 |                 |          |           |              |  
+
+## Time complexity: 
+### Full view: 
+![full view](https://raw.githubusercontent.com/FilipM13/algorithms/main/time%20complexity.png "Full view")
+### Detail:
+![dcloseup](https://raw.githubusercontent.com/FilipM13/algorithms/main/time%20complexity%20close%20up.png "detail")
