@@ -1,6 +1,6 @@
 from linear import linear
 
-def jump(arr :list, value, step :int = None):
+def jump(arr :list, value, step :int = None) -> int:
   if step is None: step = int(len(arr)**0.5)
   max_jumps = len(arr)//step - 1
   for i in range(max_jumps):

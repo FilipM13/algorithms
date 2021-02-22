@@ -1,4 +1,4 @@
-def ternary(arr :list, value, start: int = None, end :int = None):
+def ternary(arr :list, value, start: int = None, end :int = None) -> int:
   if start is None: start = 0
   if end is None: end = len(arr)-1
   if arr[start] == value: return start
