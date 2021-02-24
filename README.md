@@ -15,6 +15,8 @@ This file contains basic information about each algorithm I learn.
 |bubble sort|worst / average case: O(n^2)<br>best case: O(n)| |bubble.py|
 |insertion sort|O(n*2)| |insertion.py|
 |merge sort|O(n*log(n))| |merge.py|
+|quick sort|worst case: O(n^2)<br>average case: O(n*log(n)<br>best case: O(n)| |quick.py|
+|heap sort|On*log(n))| |heap.py|
 
 <h2 align="center"> Greedy Algorithms: </h2>  
 
