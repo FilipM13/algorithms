@@ -38,6 +38,9 @@ class Node:
     elif self.child2.count_children() < self.child1.count_children():
       self.child2.add_value(new)
 
+  def __repr__(self):
+    return f'({self.value}, [{self.child1}, {self.child2}])'
+
 def heap_sort(arr :list) -> list:
   rv = list()
   while len(arr) > 0:
