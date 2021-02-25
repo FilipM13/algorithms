@@ -17,6 +17,7 @@ This file contains basic information about each algorithm I learn.
 |merge sort|O(n*log(n))| |merge.py|
 |quick sort|worst case: O(n^2)<br>average case: O(n*log(n)<br>best case: O(n)| |quick.py|
 |heap sort|On*log(n))| |heap.py|
+|count sort|O(n + k): 0>k>=n|Best for small range of values (k).|count.py|
 
 <h2 align="center"> Greedy Algorithms: </h2>  
 
