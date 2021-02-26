@@ -1,5 +1,4 @@
 def insertion(arr :list) -> list:
-  print(arr)
   for i, value in enumerate(arr[1:]):
     j = i
     if value < arr[j]:
