@@ -18,6 +18,8 @@ This file contains basic information about each algorithm I learn.
 |quick sort|worst case: O(n^2)<br>average case: O(n*log(n)<br>best case: O(n)| |quick.py|
 |heap sort|On*log(n))| |heap.py|
 |count sort|O(n + k): 0>k>=n|Best for small range of values (k).|count.py|
+|radix sort|O(d*(n+b))<br>d- number of digits<br>n- number of elements<br>b- system base| |radix.py|
+|bucket sort|average case: O(n+k)<br>worst case: O(n^2)|Best for uniformly distributed values.<br>Breaks list into sublists and uses another algorithm to sot them.|bucket.py|
 
 <h2 align="center"> Greedy Algorithms: </h2>  
 
