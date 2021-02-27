@@ -29,10 +29,3 @@ def shell(arr :list, k :int = 1) -> list:
     arr = shell(arr, k+1)
 
   return arr
-
-import random
-ar = list(range(150)) + list(range(20, 70))
-random.shuffle(ar)
-print(ar)
-print(shell(ar))
-print(shell(ar) == sorted(ar))

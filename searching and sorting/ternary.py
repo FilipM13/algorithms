@@ -1,4 +1,4 @@
-def ternary(arr :list, value, start: int = None, end :int = None) -> int:
+def ternary(arr :list, value, start: int = None, end :int = None) -> int or None:
   if start is None: start = 0
   if end is None: end = len(arr)-1
   if arr[start] == value: return start
@@ -16,4 +16,4 @@ def ternary(arr :list, value, start: int = None, end :int = None) -> int:
     return ternary(arr=arr, value=value, start=mid1+1, end=mid2-1)
   elif arr[mid2] < value < arr[end]:
     return ternary(arr=arr, value=value, start=mid2, end=end-1)
-  else: return -1
+  else: return None

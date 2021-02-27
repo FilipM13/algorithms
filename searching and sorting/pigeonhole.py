@@ -6,7 +6,6 @@ def pigeonhole(arr: list) -> list:
   for v in arr:
     holes[v - m].append(v)
   arr = list()
-  print(holes)
   for h in holes:
     arr.extend(h)
   return arr

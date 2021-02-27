@@ -1,18 +1,14 @@
 def comb(arr :list, gap :int = None) -> list:
-  if gap is None: gap = len(arr)-1
+  if gap is None: gap = len(arr)
   i = 0
   while True:
-    while True:
-      try:
-        if arr[0+i] > arr[gap+i]:
-          arr[0+i], arr[gap+i] = arr[gap+i], arr[0+i]
-        i += 1
-      except IndexError:
-        i += 1
-        break
-    if i >= gap:
+    try:
+      if arr[i] > arr[gap+i]:
+        arr[i], arr[gap+i] = arr[gap+i], arr[i]
+    except IndexError:
       break
-  g2 = int(gap//1.3)
+    i += 1
+  g2 = int(gap/1.3)
   if g2 >= 1:
     arr = comb(arr, g2)
   return arr
