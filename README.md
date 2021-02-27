@@ -20,6 +20,10 @@ This file contains basic information about each algorithm I learn.
 |count sort|O(n + k): 0>k>=n|Best for small range of values (k).|count.py|
 |radix sort|O(d*(n+b))<br>d- number of digits<br>n- number of elements<br>b- system base| |radix.py|
 |bucket sort|average case: O(n+k)<br>worst case: O(n^2)|Best for uniformly distributed values.<br>Breaks list into sublists and uses another algorithm to sot them.|bucket.py|
+|shell sort|O(n^2)| |shell.py|
+|comb sort|O(n^2/2^p)<br>p- number of increments<br>n- number of elements| |comb.py|
+|pigeonhole sort|O(R+n)<br>R- range of values<br>n- number of elements| |pigeonhole.py|
+|cycle sort|O(n^2)| |cycle.py|
 
 <h2 align="center"> Greedy Algorithms: </h2>  
 
