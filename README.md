@@ -4,7 +4,7 @@ This file contains basic information about each algorithm I learn.
 <h2 align='center'> Searching and Sorting Algorithms: </h2>  
 
 |Name of Algorithm|Time Complexity|Comment|Implementation|
-|:---------------:|:--------:|:---------|:------------:|
+|:---------------:|:-------------:|:------|:------------:|
 |linear search|O(n)|Rarely used.<br>Used for sorted arrays.|linear.py|
 |binary search|O(log(n)|Used for sorted arrays.|binary.py|
 |jump search|O(n^0.5)|Combines binary search and linear search.<br>Used for sorted arrays.<br>Optimal jump size is n^0.5<br>Time complexity is between linear search and binary search.|jump.py|
@@ -24,30 +24,6 @@ This file contains basic information about each algorithm I learn.
 |comb sort|O(n^2/2^p)<br>p- number of increments<br>n- number of elements| |comb.py|
 |pigeonhole sort|O(R+n)<br>R- range of values<br>n- number of elements| |pigeonhole.py|
 |cycle sort|O(n^2)| |cycle.py|
-
-<h2 align="center"> Greedy Algorithms: </h2>  
-
-|Name of Algorithm|Time Complexity|Comment|Implementation|
-|:---------------:|:--------:|:---------:|:------------:|  
-|                 |          |           |              |
-
-<h2 align='center'> Dynamic Programming: </h2>
-
-|Name of Algorithm|Time Complexity|Comment|Implementation|
-|:---------------:|:--------:|:---------:|:------------:|  
-|                 |          |           |              |
-
-<h2 align='center'> Pattern Searching Algorithms: </h2>
-
-|Name of Algorithm|Time Complexity|Comment|Implementation|
-|:---------------:|:--------:|:---------:|:------------:|  
-|                 |          |           |              |
-
-<h2 align='center'> Backtracking: </h2>
-
-|Name of Algorithm|Time Complexity|Comment|Implementation|
-|:---------------:|:--------:|:---------:|:------------:|  
-|                 |          |           |              |  
 
 <h2 align='center'> Time complexity: </h2>
 
