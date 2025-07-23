@@ -31,6 +31,3 @@ This file contains basic information about each algorithm I learn.
 ![full view](https://raw.githubusercontent.com/FilipM13/algorithms/main/time%20complexity.png "Full view")
 ### Detail:
 ![detail](https://raw.githubusercontent.com/FilipM13/algorithms/main/time%20complexity%20close%20up.png "detail")
-
-### Source:
-https://www.geeksforgeeks.org/fundamentals-of-algorithms/
